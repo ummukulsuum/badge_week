@@ -1,0 +1,23 @@
+
+class Child {
+  String? name;
+  int? age;
+
+  Child.fChild(String name,int age){
+    this.name=name;
+    this.age=age;
+  }
+  Child.sChild(String name,int age){
+    this.name=name;
+    this.age=age;
+  }
+} 
+void main(){
+  Child child1=Child.fChild('kulsuum', 19);
+print(child1.name);
+print(child1.age);
+
+Child child2=Child.sChild('afnan', 15);
+print(child2.name);
+print(child2.age);
+}
