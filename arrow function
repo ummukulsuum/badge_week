@@ -1,0 +1,5 @@
+
+int addArrow(int a,int b)=>a+b; 
+void main() {
+  print(addArrow(5, 6));  
+}
