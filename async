@@ -1,0 +1,11 @@
+
+Future<String> fetchData() async {
+  return Future.delayed(Duration(seconds: 2), () => "Data ready");
+}
+
+void main() {
+  print("Start");
+  fetchData().then((result) => print(result));
+  print("End");
+ }
+
