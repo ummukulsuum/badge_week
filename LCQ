@@ -1,0 +1,4 @@
+void main(){
+  String letters='aabbccdeefdghh';
+    print(letters.split('').toSet().join());
+}
