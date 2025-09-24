@@ -1,0 +1,7 @@
+
+void main(){
+    String name ='ummukulsuum';
+    List  names=[];
+    names.add(name);
+    print(names);
+}
