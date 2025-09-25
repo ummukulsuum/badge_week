@@ -1,0 +1,14 @@
+
+class Person {
+  String? name;
+  int? age;
+
+  void showDetails() {
+    print(name = "John");
+    print(age = 25);
+  }
+}
+
+void main() {
+  Person persons = Person()?..name..age..showDetails();
+}
