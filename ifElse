@@ -1,0 +1,10 @@
+
+void main(){
+  String name='ummukulsuum';
+  if(name=="ummusuum"){
+    print(name);
+  }
+  else{
+    print('name is incorrect');
+  }
+}
